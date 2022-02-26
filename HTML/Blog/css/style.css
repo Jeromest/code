@@ -1,0 +1,40 @@
+.box{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 65%;
+	height: 800px;
+	background-color: white;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 12px;
+	text-align: center;
+	font-family: verdana, geneva, sans-serif;
+	background-color: #CCCCCC;
+}
+.menu{
+	width: 500px;
+}
+.menu ul{
+	background: #eee;
+	list-style-type: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 0px 12px;
+	line-height: 36px;
+	border-right: 1px solid #ccc;
+}
+.menu ul li.last{
+	border-right: 0px;
+}
+a:link{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #f00;
+}

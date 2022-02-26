@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+body{
+	background-color: antiquewhite;
+	height: 1000px;
+	min-width: 700px;
+}
+#box{
+	width: 1024px;
+	margin: 0 auto;
+}
+#banner{
+	width: 1024px;
+	height: 209px;
+	background-image: url(images/bg.jpg);
+}
+#menu{
+	width: 1024px;
+	height: 50px;
+	background-color: darkgreen;
+}
+#menu ul{
+	list-style-type: none;
+	float: right;
+	color: white;
+}
+#menu ul li{
+	display: inline;
+	line-height: 50px;
+	margin: 10px 20px;
+}
+/* #menu a:link{	//未访问的链接
+	color: white;
+}
+#menu a:visited{	//访问过的链接
+	color: white;
+} */
+#left a:link{
+	color: black;
+}
+#left a:hover{
+	color: green;
+}
+#left{
+	width: 265px;
+	height: 1100px;
+	float: left;
+	background-color: white;
+}
+#left #image{
+	width: 200px;
+	height: 133px;
+	margin: 20px 20px;
+	border: 2px solid green;
+	border-radius: 8px;
+	padding: 8px;
+	text-align: center;
+}
+/* #left #image #sunshine{
+	height: 80px;
+	width: 200px;
+	/* background-color: #FF7F50; */
+
+/* #left #image p{
+	border: 1px 1px dashed black;
+} */
+#left #image ul{
+	height: 30px;
+}
+#left #image ul li{
+	text-align: center;
+	line-height: 30px;
+}
+#left ul{
+	line-height: 30px;
+	list-style: square inside url("images/icon1.gif");
+}
+#left #huoli ul li{
+	display: inline;
+	margin-left: 40px;
+}
+#left li{
+	list-style: none;
+	margin-left: 20px;
+	line-height: 40px;
+	border-bottom: 1px dashed black;
+}
+#left .title{
+	height: 40px;
+	background-color: #006400;
+	border-radius: 0px 8px 8px 0px;
+}
+#left .title h3{
+	margin-left: 30px;
+	color: white;
+	line-height: 40px;
+}
+#right{
+	width: 759px;
+	height: 1100px;
+	float: right;
+	background-color: white;
+	line-height: 50px;
+}
+.sun{
+	color: coral;
+	text-align: center;
+	margin-top: 20px;
+}
+.bbs{
+	width: 500px;
+	height: 300px;
+	margin-left: 130px;
+	display: inline-block;
+}
+#btn{
+	margin-left: 360px;
+	font-size: 20px;
+}
+#right h3{
+	color: coral;
+	margin-left: 30px;
+	border-bottom: 2px dashed black;
+	width: 90%;
+}
+/* #right hr{
+	width: 95%;
+	margin-left: 30px;
+} */
+#right p{
+	margin-left: 30px;
+	text-indent: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	margin-right: 30px;
+}
+#right span{
+	margin-left: 580px;
+}
+#right .zhu{
+	font-family: "宋体";
+	font-size: 13px;
+	color: darkgray;
+}
+#footer{
+	width: 1024px;
+	height: 70px;
+	background-color: #006400;
+	text-align: center;
+	/* position: absolute; */
+	/* bottom: 0; */
+	/* margin-bottom: 1000px; */
+	clear: right;
+	color: white;
+}
+#footer span{
+	line-height: 70px;
+	font-size: 10px;
+}

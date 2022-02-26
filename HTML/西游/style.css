@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    position: relative;
+    padding-top: 521px;
+    min-height: 276px;
+    background: url(images/background.webp) no-repeat center top;
+    /* background-color: #86a5d3; */
+}
+.west:nth-child(01){
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 50%;
+    margin-left: -398px;
+    top: 352px;
+    background-image: url("images/west_01.png");
+    background-repeat: no-repeat;
+    animation: play01 1.4s steps(8) infinite;
+}
+.west:nth-child(02){
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 50%;
+    margin-left: -198px;
+    top: 356px;
+    background-image: url("images/west_02.png");
+    background-repeat: no-repeat;
+    animation: play02 1.4s steps(8) infinite;
+}
+.west:nth-child(03){
+    position: absolute;
+    width: 170px;
+    height: 240px;
+    left: 50%;
+    margin-left: -11px;
+    top: 326px;
+    background-image: url("images/west_03.png");
+    background-repeat: no-repeat;
+    animation: play03 1.4s steps(8) infinite;
+}
+.west:nth-child(04){
+    position: absolute;
+    width: 210px;
+    height: 200px;
+    left: 50%;
+    margin-left: 198px;
+    top: 372px;
+    background-image: url("images/west_04.png");
+    background-repeat: no-repeat;
+    animation: play04 1.4s steps(8) infinite;
+}
+
+@keyframes play01{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -1600px 0;
+    }
+}
+@keyframes play02{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -1600px 0;
+    }
+}
+@keyframes play03{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -1360px 0;
+    }
+}
+@keyframes play04{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -1680px 0;
+    }
+}

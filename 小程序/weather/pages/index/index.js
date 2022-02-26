@@ -1,0 +1,11 @@
+Page({
+  data:{
+    temp:"4",
+    low:"-1℃",
+    high:"10℃",
+    type:"晴",
+    city:"西安",
+    week:"星期三",
+    weather:"多云"
+  }
+})

@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body{
+	width: 200px;
+	height: 500px;
+	margin: 0 auto;
+	/* width: auto;
+	height: 1080px; */
+	/* background: url(bg2.jpg); */
+	/* background-color: #000; */
+}
+.box{
+	width: 500px;
+	height: 1080px;
+	/* text-align: center; */
+	/* margin: 0 auto; */
+	
+	
+}
+.box p{
+	text-align: center;
+	color: #FFFFFF;
+}

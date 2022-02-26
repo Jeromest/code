@@ -1,0 +1,32 @@
+.loading{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading-ico{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    border: 5px solid gray;
+    border-left: 5px solid pink;
+    animation: loading 0.5s linear infinite;
+	border-radius: 50%;
+}
+@keyframes loading{
+    frome{transform: rotate(0deg);};
+    to{transform: rotate(360deg);};
+}
+@-moz-keyframes loading{
+    frome{-moz-transform: rotate(0deg);};
+    to{-moz-transform: rotate(360deg);};
+}
+@-o-keyframes loading{
+    frome{-o-transform: rotate(0deg);};
+    to{-o-transform: rotate(360deg);};
+}
+@-webkit-keyframes loading{
+    frome{-webkit-transform: rotate(0deg);};
+    to{-webkit-transform: rotate(360deg);};
+}
